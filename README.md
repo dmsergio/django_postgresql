@@ -1,2 +1,2 @@
-# django_postgresql
-Template project to deploy a Django/PostgreSQL app
+# Django + PostgreSQL project template
+Project template to deploy a Django/PostgreSQL app.

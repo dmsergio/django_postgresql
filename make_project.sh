@@ -21,7 +21,7 @@ EOF
 
 
 make_project () {
-    ln -s ./.env_template ./.env
+    ln -s ./env_template ./.env
     docker-compose run web django-admin startproject ${DJANGO_PROJECT_NAME} .
     exit 1
 }
